@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+    <title> Notizblock </title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"> </script>
+
+</head>
+
+<body onload="showNote()">
+
+    <div class="input-box">
+
+        <div class="notes-input-box">
+
+            <input class="input-field" id="title-input" placeholder="Title">
+            <button onclick="addNote()" class="save-btn"><img src="img/save.png"></button>
+
+
+            <input class="input-field" id="note-input" placeholder="Take a note...">
+
+
+
+        </div>
+
+
+        <div id="note"> </div>
+
+        <div class="trashcan">
+
+            <button onclick="trashCan()" class="trashcan-btn">Papierkorb<img src="img/trashcan.png"></button>
+
+            <div id="trashcan-note"> </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+</html>

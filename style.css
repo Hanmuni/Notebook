@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+    flex-direction: column;
+}
+
+.notes-input-box {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 8px;
+    width: 500px;
+}
+
+.save-btn {
+    background-color: white;
+    width: 100%;
+    border: transparent;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.save-btn img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+}
+
+.delete-btn {
+    background-color: white;
+    width: 100%;
+    border: transparent;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-btn img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+}
+
+.trashcan-btn {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    border: transparent;
+    display: flex;
+}
+
+.trashcan-btn img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+}
+
+.close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    border: transparent;
+    text-align: center;
+    width: 80%;
+}
+
+.note {
+    display: flex;
+    justify-content: center;
+}
+
+.note-message {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: black;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 8px;
+    width: 500px;
+    height: 150px;
+}
+
+@media(max-width: 1000px) {
+
+    .notes-input-box {
+        width: 300px;
+    }
+
+    .note-message {
+        width: 300px;  
+    }
+
+    .delete-btn {
+        justify-content: center;
+    }
+
+    .input-box {
+        font-size: 16px;
+    }
+
+    .input-field {
+        font-size: 16px;
+    }
+
+    .trashcan-btn {
+        font-size: 16px;
+    }
+}
